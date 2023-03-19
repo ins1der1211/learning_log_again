@@ -2,3 +2,4 @@ venv
 .idea
 .history
 .vscode
+ll_project/__pycache__/
