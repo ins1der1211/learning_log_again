@@ -3,3 +3,5 @@ venv
 .history
 .vscode
 ll_project/__pycache__/
+learning_log_again/__pycache__/
+learning_log_again/migrations/__pycache__/
