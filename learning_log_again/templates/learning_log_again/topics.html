@@ -6,7 +6,13 @@
 
    <ul>
      {% for topic in topics %}
-       <li>{{ topic.text }}</li>
+
+       <li>
+        <a href="{% url 'learning_log_again:topic' topic.id %}">
+          {{ topic.text }}</a>
+       </li>
+
+      </li>
      {% empty %}
       <li>No topics have been added yet.</li>
      {% endfor %}
