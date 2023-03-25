@@ -12,10 +12,11 @@
           {{ topic.text }}</a>
        </li>
 
-      </li>
+      
      {% empty %}
       <li>No topics have been added yet.</li>
      {% endfor %}
    </ul>
+    <a href="{% url 'learning_log_again:new_topic' %}">Add a new topic</a>
 
 {% endblock content %}
